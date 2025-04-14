@@ -1,76 +1,31 @@
 body {
-  font-family: Arial, sans-serif;
-  background: url('../assets/textures/background_texture.jpg') no-repeat center center fixed;
-  background-size: cover;
-  text-align: center;
-  color: white;
-  margin: 0;
-  padding: 0;
+ body {
+  background-color: #0A0A0A;
+  color: #E0E0E0;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-header {
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
+header, footer {
+  background-color: #0D1B2A;
 }
 
-header h1 {
-  font-size: 2.5rem;
-}
-
-nav {
-  margin-top: 10px;
-}
-
-nav a {
-  margin: 0 10px;
-  color: white;
+a {
+  color: #415A77;
   text-decoration: none;
 }
 
-button {
-  font-size: 20px;
-  padding: 10px 20px;
-  background-color: #ff7f00;
+a:hover {
+  color: #778DA9;
+}
+
+.button {
+  background-color: #1B263B;
+  color: #E0E0E0;
   border: none;
-  border-radius: 10px;
+  padding: 10px 20px;
   cursor: pointer;
-  margin-top: 20px;
 }
 
-button:hover {
-  opacity: 0.8;
-}
-
-#caseImage {
-  width: 150px;
-  height: 150px;
-  margin-top: 20px;
-  transition: transform 0.3s;
-}
-
-#caseContent {
-  margin-top: 50px;
-}
-
-#result {
-  margin-top: 20px;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-footer {
-  padding: 20px;
-  background-color: #333;
-  color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-@keyframes shake {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(10deg); }
-  50% { transform: rotate(0deg); }
-  75% { transform: rotate(-10deg); }
-  100% { transform: rotate(0deg); }
+.button:hover {
+  background-color: #415A77;
 }
